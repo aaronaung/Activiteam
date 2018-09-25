@@ -1,0 +1,23 @@
+{
+  "name": "activiteam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "joi": "^13.6.0",
+    "jsonwebtoken": "^8.3.0",
+    "mysql": "^2.16.0",
+    "nodemon": "^1.18.4",
+    "promise-mysql": "^3.3.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app/server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

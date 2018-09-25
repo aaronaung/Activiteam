@@ -1,0 +1,9 @@
+{
+    "prod": {},
+    "dev": {
+        "host": "localhost",
+        "user": "root",
+        "password": "root",
+        "database": "activiteam"
+    }
+}
