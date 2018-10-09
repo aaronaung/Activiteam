@@ -6,5 +6,6 @@ Activiteam is a mobile application that resolves some of the intraorganizational
 <hr>
 
 ## Team Members
-1. Aaron Aung
-2. ...
+1. Aaron Aung - Team Lead/Lead Developer
+2. Dennis Dang - Lead Developer
+3. Minh Tam - UX Designer
