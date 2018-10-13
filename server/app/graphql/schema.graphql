@@ -1,0 +1,21 @@
+type Query{
+    user(username: ID!): User
+    login(email: String!, password: String!): AuthenticationResponse
+}
+
+type Mutation{
+    addUser: User
+}
+
+type User{
+    username: String! # non nullable - db can't send a null value for this field
+    firstname: String
+    lastname: String
+    email: String
+    active: Int
+}
+
+type AuthenticationResponse{
+    token: String
+    client_id: String
+}
