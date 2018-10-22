@@ -10,8 +10,11 @@
         "tsc:init": "tsc --init --pretty --jsx react"
     },
     "dependencies": {
+        "apollo-boost": "^0.1.16",
         "expo": "^30.0.1",
+        "graphql": "^14.0.2",
         "react": "16.3.1",
+        "react-apollo": "^2.2.4",
         "react-native": "https://github.com/expo/react-native/archive/sdk-30.0.0.tar.gz",
         "tslib": "^1.9.3",
         "tslint": "^5.11.0"
