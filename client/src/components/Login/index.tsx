@@ -95,5 +95,6 @@ const styles = StyleSheet.create({
   },
   input: {
     ...headers.two
+    // margin: 20
   }
 });
