@@ -7,18 +7,19 @@ import {
   TouchableOpacity,
   View
 } from "react-native";
-import gql from "graphql-tag";
+// import gql from "graphql-tag";
 
 import colors from "../../styles/colors";
 import headers from "../../styles/headers";
 
-const LOGIN_QUERY = gql`
-  query LOGIN_QUERY {
-    login {
+// TODO:
+// const LOGIN_QUERY = gql`
+//   query LOGIN_QUERY {
+//     login {
       
-    }
-  }
-`;
+//     }
+//   }
+// `;
 
 export default class LoginInputs extends React.Component {
   constructor(props: any) {
@@ -31,7 +32,7 @@ export default class LoginInputs extends React.Component {
   }
 
   _onLoginPress() {
-    Alert.alert("you pressed the button");
+    // this.props.navigation.navigate('Home')}
   }
 
   render() {

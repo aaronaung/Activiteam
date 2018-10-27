@@ -5,7 +5,7 @@ import colors from "../styles/colors";
 import headers from "../styles/headers";
 import Login from "../components/Login";
 
-export default class LoginScreen extends React.Component {
+class LoginScreen extends React.Component {
   render() {
     return (
       <View style={styles.container}>
@@ -20,6 +20,8 @@ export default class LoginScreen extends React.Component {
   }
 }
 
+export default LoginScreen;
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -28,7 +30,7 @@ const styles = StyleSheet.create({
   },
   titleContainer: {
     flex: 2,
-    alignSelf: 'center',
+    alignSelf: "center",
     justifyContent: "center"
   },
   title: {
@@ -38,6 +40,6 @@ const styles = StyleSheet.create({
     fontWeight: "600"
   },
   loginContainer: {
-    flex: 3,
+    flex: 3
   }
 });
